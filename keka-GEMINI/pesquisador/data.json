@@ -1,0 +1,348 @@
+[
+  {
+    "nome": "Creeper",
+    "imagem": "imagens/creeper.png",
+    "descricao": "Um mob hostil clássico de superfície, conhecido por se aproximar silenciosamente do jogador e explodir, causando destruição no ambiente e dano em área.",
+    "fraquezas": "Água; Dano de Projéteis; Arco e Flecha (mantendo distância).",
+    "comportamentos": "Aproximação Silenciosa: Persegue o jogador até se aproximar o suficiente e então começa a explodir (3 segundos). Não ataca se a saúde estiver abaixo de 50%. Carregado: Se atingido por um raio, a explosão é muito mais forte.",
+    "estrategias": "Acerte um golpe e recue imediatamente (o famoso \"hit and run\"). Use um arco e flecha ou uma poção de lentidão. Em locais abertos, force-o a explodir longe de você, pulando para trás."
+  },
+  {
+    "nome": "Warden",
+    "imagem": "imagens/warden.png",
+    "descricao": "Um dos mobs mais perigosos, encontrado nas profundezas do bioma Deep Dark. É cego e rastreia o jogador principalmente através do som e vibrações.",
+    "fraquezas": "Sinal sonoro (Sculk Shriekers); Atacar à distância; A melhor estratégia é a Furtividade (Sneaking).",
+    "comportamentos": "Cego e Furtivo: Detecta o jogador principalmente por som e vibrações. Pode cheirar o jogador se estiver perto. Ataca com um golpe corpo a corpo e um poderoso ataque sônico (raio de energia).",
+    "estrategias": "EVITAR O COMBATE. Mova-se sempre agachado (Sneaking) para não fazer barulho e use projéteis para desviar sua atenção (Ex: Bolas de Neve, Ovos) para outro local."
+  },
+  {
+    "nome": "Breeze",
+    "imagem": "imagens/breeze.png",
+    "descricao": "Um elemental hostil do vento que reside nas Trial Chambers. Ataca com rajadas de vento que causam dano e empurram o jogador e outros mobs.",
+    "fraquezas": "Empurrões (Knockback) de suas próprias rajadas de vento quando acerta blocos; Projéteis (se puder acertar).",
+    "comportamentos": "Elemental de Vento: Pula e gira ao redor do jogador, atirando bolas de vento que explodem ao acertar um bloco, causando dano de contato e empurrando a vítima.",
+    "estrategias": "Mantenha a distância. Tente usar armas de longo alcance. Se estiver em combate corpo a corpo, tente forçar a rajada de vento a atingir um bloco perto dele para desorientá-lo."
+  },
+  {
+    "nome": "Bogged",
+    "imagem": "imagens/bogged.png",
+    "descricao": "Uma variação do Esqueleto que spawna em pântanos e Trial Chambers. Atira flechas que aplicam o efeito de Veneno, tornando o combate mais perigoso.",
+    "fraquezas": "Não queima à luz do sol (como outros esqueletos); Levemente mais lento que um Esqueleto normal.",
+    "comportamentos": "Arqueiro de Veneno: Atira flechas com o efeito de Veneno. Spawna em Mangrove Swamps e Trial Chambers.",
+    "estrategias": "Use um escudo para bloquear as flechas ou use uma armadura que minimize o dano de veneno (ou tome leite). Ataque rapidamente corpo a corpo antes que ele possa disparar muitas flechas."
+  },
+  
+  {
+    "nome": "Zumbi (Zombie)",
+    "imagem": "imagens/Zumbi.png",
+    "descricao": "Um mob hostil lento, mas persistente, encontrado na superfície e em cavernas. Queima sob a luz direta do sol, a menos que esteja protegido.",
+    "fraquezas": "Dano de Fogo (Queima ao sol); Poções de Dano (Splash Potion of Harming); Pobre contra Vantagens de Flechas (Ex: Poder).",
+    "comportamentos": "Lento e Hostil: Persegue o jogador, ataca corpo a corpo. Queima à luz do sol, exceto se estiver com capacete, debaixo d'água ou em um local com sombra.",
+    "estrategias": "Combate corpo a corpo simples ou espere o dia amanhecer (se estiverem sem capacete). Armas de fogo e Flechas são eficazes."
+  },
+  {
+    "nome": "Esqueleto (Skeleton)",
+    "imagem": "imagens/esqueleto.png",
+    "descricao": "Um mob hostil que ataca com flechas à distância. Assim como o Zumbi, queima sob a luz direta do sol.",
+    "fraquezas": "Queima ao sol; Pobre contra Vantagens de Flechas (Ex: Poder).",
+    "comportamentos": "Arqueiro Hostil: Atira flechas rapidamente de longa distância. Queima à luz do sol, exceto se estiver debaixo d'água ou com capacete.",
+    "estrategias": "Use um Escudo para bloquear as flechas (a estratégia mais eficiente). Avance rapidamente em zigue-zague para evitar os projéteis e finalize com um ataque corpo a corpo."
+  },
+  {
+    "nome": "Aranha (Spider)",
+    "imagem": "imagens/aranha.png",
+    "descricao": "Um mob grande que pode escalar paredes. É neutro durante o dia (só ataca se provocado) e hostil à noite ou em locais escuros.",
+    "fraquezas": "Pequena altura (podem ficar presas); Dano de Projéteis.",
+    "comportamentos": "Neutro (de dia): Não ataca a menos que provocado ou em locais escuros. Hostil (à noite/escuro): Persegue o jogador, salta para atacar. Pode escalar paredes.",
+    "estrategias": "Ataque com espada para repelir ou use um Arco e Flecha para manter a distância. Se for de dia, é fácil fugir."
+  },
+  {
+    "nome": "Aranha da Caverna (Cave Spider)",
+    "imagem": "imagens/aranha das cavernas.png",
+    "descricao": "Uma versão menor e mais perigosa da Aranha, geralmente encontrada em Minas Abandonadas, que ataca com veneno.",
+    "fraquezas": "Escudo é eficaz; Fácil de ser empurrada.",
+    "comportamentos": "Venenosa: Ataca rapidamente e aplica o efeito Veneno (dano prolongado). Se esconde em teias de aranha (geralmente em Minas Abandonadas).",
+    "estrategias": "Use um Escudo. Tente eliminá-la rapidamente com golpes críticos antes que o veneno cause muito dano, ou leve Leite para remover o veneno."
+  },
+  {
+    "nome": "Slime",
+    "imagem": "imagens/slime.png",
+    "descricao": "Um mob hostil que se divide em Slimes menores ao ser derrotado. Spawna em pântanos à noite ou em 'Slime Chunks' específicos.",
+    "fraquezas": "Espada encantada com \"Varredura\" (Sweeping Edge); Fácil de ser dividido.",
+    "comportamentos": "Dividível: Ao morrer, se divide em Slimes menores (até que chegue ao tamanho 1). Hostil (sempre): Pula para se mover e atacar. Spawna em pântanos à noite e em caves específicas (Slime Chunks).",
+    "estrategias": "Ataque com uma espada encantada com \"Varredura\" para acertar vários de uma vez. Mantenha distância e mate os maiores rapidamente para evitar ser cercado pelos menores."
+  },
+  {
+    "nome": "Vindita (Witch)",
+    "imagem": "imagens/witch.png",
+    "descricao": "Um mob mágico que ataca usando poções arremessáveis (dano e efeitos negativos) e se cura com poções de vida.",
+    "fraquezas": "Projéteis de Flechas; Dano de Queda (pode ser empurrada de uma altura).",
+    "comportamentos": "Mágico: Ataca lançando Poções de Dano e de Efeitos Negativos. Bebe Poções de Cura para se curar.",
+    "estrategias": "Use flechas para interromper o lançamento de poções. Tente usar uma besta ou arco com recarga rápida. Um ataque surpresa e rápido pode impedir que ela se cure."
+  },
+  {
+    "nome": "Afogado (Drowned)",
+    "imagem": "imagens/afogado.jpeg",
+    "descricao": "Uma variante subaquática do Zumbi, encontrada em rios e oceanos. Pode atacar com um tridente ou corpo a corpo.",
+    "fraquezas": "Dano de Fogo (queima ao sol na superfície); Tridente (se deixarem cair).",
+    "comportamentos": "Aquático: Ataca corpo a corpo e/ou lança Tridentes (se estiver equipado). Vive em rios e oceanos, pode sair da água.",
+    "estrategias": "Mantenha-se no solo. Se tiver que lutar na água, use um tridente com \"Impulso\" (Impaling) ou uma arma de corpo a corpo para dano rápido."
+  },
+  {
+    "nome": "Casca (Husk)",
+    "imagem": "imagens/husk.png",
+    "descricao": "Uma variante desértica do Zumbi. Não queima ao sol e seu ataque corpo a corpo inflige o efeito de Fome.",
+    "fraquezas": "Água (transforma-se em Afogado); Poções de Dano.",
+    "comportamentos": "Desértico: Não queima ao sol. Seu ataque corpo a corpo causa o efeito Fome. Spawna em biomas de deserto.",
+    "estrategias": "Combate corpo a corpo rápido. Use um balde de água para forçá-lo a se transformar em um Afogado (perdendo o efeito de Fome)."
+  },
+  {
+    "nome": "Esqueleto Errante (Stray)",
+    "imagem": "imagens/stray.png",
+    "descricao": "Uma variante do Esqueleto que spawna em biomas gelados. Atira flechas que aplicam o efeito de Lentidão.",
+    "fraquezas": "Não queima ao sol.",
+    "comportamentos": "Nevado/Gelo: Atira flechas que aplicam o efeito Lentidão. Spawna em biomas nevados.",
+    "estrategias": "Estratégia similar ao Esqueleto normal: Use um Escudo e avance. Mantenha-se em movimento para evitar as flechas de lentidão."
+  },
+  {
+    "nome": "Guardião (Guardian)",
+    "imagem": "imagens/guardian.png",
+    "descricao": "Um mob hostil aquático encontrado em Monumentos Oceânicos. Ataca com um raio laser de longo alcance.",
+    "fraquezas": "Ar (é lento fora d'água); Escudo (bloqueia o laser).",
+    "comportamentos": "Laser: Ataca com um raio laser que precisa ser carregado. Não pode ser atingido a curta distância se estiver com os espinhos ativos.",
+    "estrategias": "No Monumento: Use poções de Respiração Aquática. Ataque-o durante o carregamento do laser. Fora d'água, ele é fácil de matar."
+  },
+  {
+    "nome": "Guardião Ancião (Elder Guardian)",
+    "imagem": "imagens/elderguardian.png",
+    "descricao": "O mini-chefe encontrado nos Monumentos Oceânicos. Além do laser, ele aplica o efeito permanente de Fadiga de Mineração na área.",
+    "fraquezas": "Ar (é lento fora d'água); Escudo (bloqueia o laser).",
+    "comportamentos": "Chefe Aquático: Igual ao Guardião, mas impõe o efeito permanente de Mining Fatigue (Fadiga de Mineração) na área.",
+    "estrategias": "Use Poções de Respiração Aquática e Visão Noturna. Foque-o rapidamente com armas poderosas ou TNT submersa."
+  },
+  {
+    "nome": "Fantasma (Phantom)",
+    "imagem": "imagens/phantom.png",
+    "descricao": "Um mob voador que só aparece para jogadores que não dormiram por vários dias. Mergulha do céu para atacar.",
+    "fraquezas": "Dano de Flechas (quando planando); Queima ao sol.",
+    "comportamentos": "Voador: Voa alto e mergulha para atacar o jogador. Aparece apenas para jogadores que não dormiram por 3 ou mais dias.",
+    "estrategias": "Durma na cama para fazê-los desaparecer. Se for lutar, use arco e flecha enquanto ele estiver em seu mergulho, ou um ataque rápido de espada assim que ele se aproximar."
+  },
+  {
+    "nome": "Pillager",
+    "imagem": "imagens/pillager.png",
+    "descricao": "Um Illager que ataca usando uma besta. Eles são comumente encontrados em Postos Avançados e durante Invasões (Raids).",
+    "fraquezas": "Escudo (bloqueia os projéteis da besta).",
+    "comportamentos": "Arqueiro de Invasão: Ataca à distância com uma Besta. Spawna em postos avançados e durante invasões (Raids).",
+    "estrategias": "Use um Escudo. Avance para o corpo a corpo ou use seu próprio arco e flecha. Aproxime-se agachado para evitar que ele te localize facilmente."
+  },
+  {
+    "nome": "Vindicador (Vindicator)",
+    "imagem": "imagens/vindicador.png",
+    "descricao": "Um Illager perigoso que ataca rapidamente com um machado em combate corpo a corpo. Encontrado em Mansões e Invasões.",
+    "fraquezas": "Mantenha distância; Paredes (se puder separá-lo).",
+    "comportamentos": "Machado e Corpo a Corpo: Corre e ataca rapidamente com um machado (dano alto).",
+    "estrategias": "Mantenha a distância. Se for corpo a corpo, use um escudo para bloquear o machado e contra-ataque rapidamente. É perigoso em combate direto."
+  },
+  {
+    "nome": "Evoker",
+    "imagem": "imagens/evoker.png",
+    "descricao": "Um Illager mágico que invoca pequenos Vexes e lança um feitiço de 'Presas' (Evoker Fangs) que surgem do chão.",
+    "fraquezas": "Distância/Arco e Flecha; Bloquear as presas (Evoker Fangs) com Escudo.",
+    "comportamentos": "Invocador Mágico: Invoca Vexes para atacar e usa um feitiço de presas (Evoker Fangs) que surgem do chão.",
+    "estrategias": "Ataque com arco e flecha ou chegue perto e o mate rapidamente. Cuidado com o feitiço de Presas (Evoker Fangs), que pode ser evitado recuando ou pulando/bloqueando com o escudo."
+  },
+  {
+    "nome": "Vex",
+    "imagem": "imagens/vex.png",
+    "descricao": "Uma pequena criatura fantasma invocada pelo Evoker. Pode atravessar blocos para atacar o jogador e é altamente agressiva.",
+    "fraquezas": "Arco e Flecha; Dano de Fogo.",
+    "comportamentos": "Fantasma Voador: Atravessa blocos para atacar o jogador. Hostil e agressivo.",
+    "estrategias": "Foque em matar o Evoker que o invocou, pois o Vex desaparece após a morte do Evoker. Se for lutar contra o Vex, use arco e flecha."
+  },
+  {
+    "nome": "Assolador (Ravager)",
+    "imagem": "imagens/revager.png",
+    "descricao": "Uma criatura grande e poderosa usada pelos Illagers em Invasões. Ataca corpo a corpo e pode derrubar (knockback) o jogador com força.",
+    "fraquezas": "Fogo; Empurrão (Knockback); Ficar em locais altos (não consegue pular).",
+    "comportamentos": "Destruidor: Criatura grande e forte que pode destruir plantações e árvores pequenas. Ataca corpo a corpo e pode derrubar (knockback) o jogador.",
+    "estrategias": "Use poções de Força e vá para o corpo a corpo com uma espada. Suba em um pilar de 2 ou 3 blocos de altura, onde ele não possa te alcançar, e ataque."
+  },
+  {
+    "nome": "Silverfish",
+    "imagem": "imagens/silverfish.png",
+    "descricao": "Uma pequena praga que se esconde em blocos especiais (Infested Stone). Ao ser atacada, libera outros de blocos próximos para ajudar.",
+    "fraquezas": "Dano de área (Espada com Varredura); Dano de Fogo.",
+    "comportamentos": "Praga: Spawna em blocos infestados (Fortalezas). Ao ser atingido, outros próximos saem dos blocos para ajudar.",
+    "estrategias": "Use uma espada com \"Varredura\" para atingir múltiplos. Bloqueie as saídas antes de quebrar blocos infestados e tente afastá-los das paredes."
+  },
+  {
+    "nome": "Bruto Piglin (Piglin Brute)",
+    "imagem": "imagens/brutopiglin.png",
+    "descricao": "Uma variante sempre hostil do Piglin, encontrada nos Bastions do Nether. Ataca com um machado e ignora armaduras de ouro.",
+    "fraquezas": "Projéteis; Facilmente atraído por ouro (como os outros Piglins).",
+    "comportamentos": "Sempre Hostil: Ao contrário do Piglin normal, o Bruto nunca se acalma, mesmo que o jogador use armadura de ouro. Ataca com um machado.",
+    "estrategias": "Mantenha a distância e use projéteis. Se for para o corpo a corpo, use um escudo (o machado causa muito dano, mas é bloqueável) e contra-ataque."
+  },
+  {
+    "nome": "Hoglin",
+    "imagem": "imagens/hoglin.png",
+    "descricao": "Um grande javali hostil encontrado no Nether. Ataca o jogador com um poderoso empurrão (knockback) e é repelido pelo Fungo Distorcido.",
+    "fraquezas": "Fogo; Fungo Distorcido (Warped Fungus) (repele-os); Vulnerável a ser empurrado.",
+    "comportamentos": "Agressivo: Ataca o jogador para empurrá-lo a grandes distâncias (knockback). Spawna em certos biomas do Nether.",
+    "estrategias": "Use uma arma de longo alcance ou uma tática de \"hit and run\" para evitar o empurrão (knockback). Use um Fungo Distorcido em um Varinha de Pesca com Cenoura (ou um item na mão) para afastá-los."
+  },
+  {
+    "nome": "Zoglin",
+    "imagem": "imagens/goglin.png",
+    "descricao": "Um Hoglin zumbificado, encontrado no Nether. É totalmente hostil e atacará quase todos os outros mobs (exceto outros mobs específicos).",
+    "fraquezas": "Fogo; Água (não se transforma).",
+    "comportamentos": "Totalmente Hostil: É um Hoglin transformado, ataca qualquer mob (exceto Creeper e Ghast) e o jogador.",
+    "estrategias": "Mantenha a distância, use projéteis ou ataque com arma de fogo (espada com aspecto de fogo). Não precisa se preocupar com ele te empurrando."
+  },
+  {
+    "nome": "Ghast",
+    "imagem": "imagens/ghast.png",
+    "descricao": "Um grande mob fantasmagórico voador do Nether. Atira bolas de fogo explosivas no jogador de longe.",
+    "fraquezas": "Projéteis (bola de fogo devolvida); Flechas; Teto (Bloqueia seu movimento).",
+    "comportamentos": "Aéreo Explosivo: Mob fantasmagórico que voa e atira bolas de fogo explosivas no jogador.",
+    "estrategias": "Devolva a bola de fogo: Acerte a bola de fogo que ele atira com a espada ou um projétil. É a maneira mais eficaz de derrotá-lo. Se não for possível, use um arco e flecha."
+  },
+  {
+    "nome": "Blaze",
+    "imagem": "imagens/blaze.png",
+    "descricao": "Um mob voador de fogo, encontrado em Fortalezas do Nether. Ataca com rajadas de três bolas de fogo.",
+    "fraquezas": "Bola de Neve (causa 3 de dano); Água (evapora no Nether, mas é fraco).",
+    "comportamentos": "Aéreo de Fogo: Voa e atira rajadas de 3 bolas de fogo no jogador. Spawna em Fortalezas do Nether.",
+    "estrategias": "Use Bolas de Neve (causam dano significativo). Mantenha-se coberto e use poções de Resistência ao Fogo. Use arco e flecha entre os ataques de fogo dele."
+  },
+  {
+    "nome": "Cubo de Magma (Magma Cube)",
+    "imagem": "imagens/magma cube.png",
+    "descricao": "Uma versão do Slime, resistente ao fogo e à lava. Assim como o Slime, se divide em cubos menores ao ser derrotado.",
+    "fraquezas": "Fácil de ser dividido (como o Slime).",
+    "comportamentos": "Dividível: Igual ao Slime, mas pula mais alto e é imune a danos de fogo e lava.",
+    "estrategias": "Use uma espada com \"Varredura\" (Sweeping Edge) ou um arco e flecha. Cuidado com o salto alto dele."
+  },
+  {
+    "nome": "Esqueleto Wither (Wither Skeleton)",
+    "imagem": "imagens/esqueletowither.png",
+    "descricao": "Uma versão mais perigosa do Esqueleto, encontrada em Fortalezas do Nether. Seus ataques corpo a corpo aplicam o efeito de Wither (Desgaste).",
+    "fraquezas": "Fogo/Lava (imune); Levemente mais lento que um Esqueleto normal.",
+    "comportamentos": "Wither Effect: Aplica o efeito Wither (Desgaste/Dano de Veneno) em seus ataques corpo a corpo. Spawna em Fortalezas do Nether.",
+    "estrategias": "Use uma espada com Aspecto de Fogo (Fire Aspect) para dano extra. Lute em um corredor estreito para evitar ser cercado."
+  },
+  {
+    "nome": "Shulker",
+    "imagem": "imagens/shulker.png",
+    "descricao": "Um mob que se esconde em uma concha cúbica, encontrado nas cidades do Fim (End Cities). Atira projéteis que causam Levitação.",
+    "fraquezas": "Projéteis (Flechas) quando aberto; Fácil de ser empurrado.",
+    "comportamentos": "Levitação: Esconde-se em sua concha. Quando se abre, atira projéteis que aplicam o efeito de Levitação. Pode se teletransportar.",
+    "estrategias": "Use arco e flecha para atacá-lo quando ele se abrir. Se atingido pelo projétil, use um balde de água para tentar interromper a levitação antes de cair para a morte."
+  },
+  {
+    "nome": "Endermite",
+    "imagem": "imagens/endermite.png",
+    "descricao": "Uma pequena criatura que aparece ocasionalmente quando o jogador usa uma Pérola do Fim (Ender Pearl). É um mob fraco e agressivo.",
+    "fraquezas": "Projéteis de Flechas; Dano de Área (Espada com Varredura).",
+    "comportamentos": "Teleporte: Pequeno e agressivo. Ataca o jogador. Aparece ao usar Pérolas do Fim (Ender Pearls).",
+    "estrategias": "Mate-o rapidamente, é um mob fraco. Use uma espada para eliminar."
+  },
+  {
+    "nome": "Dragão do Fim (Ender Dragon)",
+    "imagem": "imagens/EnderDragon.png",
+    "descricao": "O chefe final do jogo, encontrado na dimensão do Fim (The End). Voa e ataca com fogo de dragão, se curando com os Cristais do Fim.",
+    "fraquezas": "Dano de Projéteis; Cama (Explosão da cama no The End/Nether).",
+    "comportamentos": "Chefe Principal: Voa e ataca com fogo de dragão. Se cura nos Cristais do Fim.",
+    "estrategias": "1. Destrua os Cristais do Fim (com arco e flecha ou projéteis). 2. Use uma Cama (apenas no The End, explode com dano massivo). 3. Ataque na plataforma quando ele pousar."
+  },
+  {
+    "nome": "Wither",
+    "imagem": "imagens/witherBoss.png",
+    "descricao": "Um chefe opcional e muito poderoso, construído pelo jogador com Soul Sand e Wither Skulls. Ataca com crânios explosivos que infligem o efeito Wither (Desgaste).",
+    "fraquezas": "Flechas de Força; Maçãs Douradas/Encantadas (para cura/resistência do jogador).",
+    "comportamentos": "Chefe Opcional: Atira crânios explosivos que aplicam o efeito Wither (Desgaste). Fica invulnerável por um tempo.",
+    "estrategias": "Lute no Subterrâneo ou em cavernas. Use armadura de Diamante/Netherita. Use Poções de Força e Regeneração. Mantenha distância e use Flechas ou vá para o corpo a corpo quando ele estiver sem escudo (após perder metade da vida)."
+  },
+  {
+    "nome": "Enderman",
+    "imagem": "imagens/enderman.png",
+    "descricao": "Um mob neutro, alto e preto, encontrado principalmente no The End (mas também no mundo normal e no Nether). Eles se teleportam e podem pegar blocos.",
+    "fraquezas": "Água (causa dano por contato); Chuva; Ataques na parte inferior das pernas ou pés. Seus olhos ficam vermelhos quando ficam hostis.",
+    "comportamentos": "Neutro: Só ataca se for provocado (olhando diretamente em seus olhos ou atacando-o). Teletransporte rápido para fugir ou atacar.",
+    "estrategias": "Use uma abóbora esculpida na cabeça para evitar a provocação ao olhar. Use um barco ou minecart para que ele não consiga atacar. Procure locais com teto baixo (2 blocos de altura) para limitar seu teletransporte."
+  },
+  {
+    "nome": "Spider Jockey",
+    "imagem": "imagens/spiderjokey.png",
+    "descricao": "Uma combinação de mob rara e perigosa: um Esqueleto montado em uma Aranha. Combina o ataque à distância do Esqueleto com a velocidade e capacidade de escalada da Aranha.",
+    "fraquezas": "Dano de Queda (pode ser usado contra a Aranha); É vulnerável ao dia (a Aranha fica neutra e o Esqueleto queima, a menos que esteja em um local sombreado).",
+    "comportamentos": "O Esqueleto atira flechas, e a Aranha persegue o jogador e pode escalar paredes. Agem como uma única unidade hostil.",
+    "estrategias": "Concentrar o ataque primeiro no Esqueleto, que é a maior ameaça de dano à distância. Use escudos contra flechas. Ataque de longe com um arco."
+  },
+  {
+    "nome": "Cavalo Esqueleto",
+    "imagem": "imagens/cavaloesqueleto.png",
+    "descricao": "Geralmente é um mob passivo. No entanto, é mais conhecido pela 'Armadilha de Esqueleto', onde um raio o atinge e ele se transforma em 4 Cavaleiros Esqueleto.",
+    "fraquezas": "São mobs não-mortos; podem ser feridos por poções de cura (cura instantânea) e curados por poções de dano (dano instantâneo).",
+    "comportamentos": "Passivo na forma normal. Armadilha de Esqueleto: se o jogador se aproxima durante uma tempestade, o cavalo é atingido por um raio, gerando 4 Esqueletos montados.",
+    "estrategias": "Se for uma armadilha, recue rapidamente para lidar com os 4 Cavaleiros Esqueleto separadamente. Caso contrário, pode ser domado e usado como montaria após matar o esqueleto montado."
+  },
+  {
+    "nome": "Chicken Jockey",
+    "imagem": "imagens/chickenjokey.png",
+    "descricao": "Uma combinação de mob rara: um Zumbi Bebê (ou outra variante bebê) montado em uma Galinha. O bebê zumbi não cresce, e a galinha o impede de sofrer dano de queda.",
+    "fraquezas": "A Galinha se move devagar, e o Zumbi Bebê tem pouca saúde. A Galinha não ataca.",
+    "comportamentos": "O Zumbi Bebê ataca o jogador de perto. A Galinha tem um comportamento passivo, mas ajuda o Zumbi Bebê a se mover rapidamente. Pode passar por espaços de 1 bloco de altura.",
+    "estrategias": "É uma ameaça de corpo a corpo. Ataque de longe. Devido ao seu tamanho pequeno, pode ser difícil de atingir."
+  },
+  {
+    "nome": "Charged Creeper",
+    "imagem": "imagens/charged_creeper.jpeg",
+    "descricao": "Um Creeper normal que foi atingido por um raio. Eles têm uma aura azul ao redor e sua explosão é exponencialmente mais poderosa.",
+    "fraquezas": "É vulnerável a flechas e espadas. Sua explosão ainda pode ser evitada se você correr rápido o suficiente ou usar um escudo. O raio deve atingi-lo diretamente.",
+    "comportamentos": "Comportamento idêntico ao Creeper normal, mas com uma explosão com poder de fogo muito maior. Sua explosão pode criar cabeças de outros mobs (como zumbis, esqueletos) se matar o mob.",
+    "estrategias": "Evite o combate a qualquer custo, pois a explosão é devastadora. Se for forçado a lutar, mate-o rapidamente à distância (arco e flecha). Tente atraí-lo para mobs hostis próximos para conseguir as cabeças de mob."
+  },
+  {
+    "nome": "Piglin",
+    "imagem": "imagens/piglin.png",
+    "descricao": "Mobs neutros e hostis que vivem no Nether. Ficam hostis se o jogador não estiver usando armadura de Ouro ou se for abrir Baús perto deles. Podem ser trocados por Ouro.",
+    "fraquezas": "Zombificação no Mundo Superior (transforma-se em Piglin Zumbi); Soul Sand (Areia de Almas) com fogo/chama azul; Ouro (se torna a isca).",
+    "comportamentos": "Neutro se o jogador usar Ouro; Hostil se o jogador não usar Ouro, quebrar blocos, ou abrir baús. Ataca com Bestas ou Espadas de Ouro. Podem fazer trocas com o jogador.",
+    "estrategias": "Sempre use pelo menos uma peça de **Armadura de Ouro**. Jogue barras de Ouro para iniciar a troca (Bartering). Se hostil, use um escudo para bloquear os ataques de Besta."
+  },
+  {
+    "nome": "Cavalo Zumbi",
+    "imagem": "imagens/cavalozumbi.png",
+    "descricao": "Uma variante rara de cavalo. É um mob passivo e não-morto que não aparece naturalmente no jogo, mas pode ser invocado via comandos ou mods. Não pode ser domado de forma tradicional.",
+    "fraquezas": "É vulnerável a poções de cura instantânea (dano) e curado por poções de dano instantâneo. Não queima no sol.",
+    "comportamentos": "Geralmente passivo e pode ser montado. Não ataca o jogador.",
+    "estrategias": "Por ser invocado via comandos, não apresenta risco de combate. Se obtido, use-o como montaria, pois possui boa saúde e velocidade."
+  },
+  {
+    "nome": "Piglin Zumbi (Zombified Piglin)",
+    "imagem": "imagens/piglinzumbi.png",
+    "descricao": "Versão zumbificada do Piglin, encontrada no Nether e às vezes no Mundo Superior. É um mob neutro que se torna hostil em grupo se um membro for atacado.",
+    "fraquezas": "Vulnerável à Água (sofre dano como Zumbis); Poções de Cura Instantânea (dano).",
+    "comportamentos": "Neutro: Não ataca o jogador a menos que seja atacado primeiro. Se um for atacado, todos os Piglins Zumbis próximos ficam hostis. Ataca com espadas de ouro.",
+    "estrategias": "Evite atacá-los, a menos que esteja preparado para enfrentar o grupo inteiro. Use portais do Nether para fazer Piglins zumbificar. Eles dropam Nugget de Ouro e Carne Podre."
+  },
+  {
+    "nome": "Aldeão Zumbi (Zombie Villager)",
+    "imagem": "imagens/aldeaozumbi.png",
+    "descricao": "Uma variação de Zumbi que é um Aldeão transformado. Aparece naturalmente e também pode resultar de um Zumbi matando um Aldeão no modo de dificuldade Hard/Normal.",
+    "fraquezas": "Luz Solar (queima no sol, a menos que use capacete); Poções de Cura Instantânea (dano); Pode ser curado de volta para Aldeão.",
+    "comportamentos": "Hostil: Ataca o jogador e Aldeões. Segue o comportamento de um Zumbi normal. Tem 5% de chance de spawnar como bebê.",
+    "estrategias": "**Cura:** Use uma Poção de Fraqueza e alimente-o com uma Maçã Dourada. Isso o transformará de volta em Aldeão. Se for lutar, use táticas padrão contra Zumbis."
+  },
+  {
+    "nome": "Rangente (Creaking)",
+    "imagem": "imagens/creaking.png",
+    "descricao": "Uma criatura hostil gerada por 'Corações de Rangente' ativos durante a noite. Ataca com cabeçadas corpo a corpo.",
+    "fraquezas": "O **Coração de Rangente** que o gerou (quebrá-lo o mata instantaneamente). Não pode ser morto por dano direto, pois é protegido pelo coração.",
+    "comportamentos": "Hostil, mas não se move enquanto o jogador estiver visível. Ele te persegue e ataca corpo a corpo quando você vira as costas ou sai do campo de visão. Atingi-lo faz crescer 'agregados de resina' em troncos de carvalho pálido próximos ao coração vinculado.",
+    "estrategias": "Mantenha-o sempre **visível** (no seu campo de visão) para impedi-lo de se mover. Quebre o **Coração de Rangente** (Creaking Heart) que o gerou; você pode localizá-lo atingindo o Rangente para gerar partículas que apontam para o coração."
+  }
+
+]

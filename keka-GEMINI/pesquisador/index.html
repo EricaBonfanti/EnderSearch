@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnderSearch</title>
+    <link rel="stylesheet" href="style.css">
+
+        <header>
+            <a class="logo" href="../pginicial/index.html"><img src="icon.png" alt="logo" class="logo-img"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a class="cta" href="index.html">Procure</a></li>
+                </ul>
+            </nav>
+        </header>
+   </head>
+<body>
+    <audio autoplay loop id="musicaFundo">
+  <source src="C418.mp3.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+
+<script>
+  // Script opcional para garantir que o autoplay funcione em alguns navegadores
+  document.addEventListener('DOMContentLoaded', (event) => {
+    document.getElementById('musicaFundo').play().catch(error => {
+      // O autoplay falhou (geralmente por causa das políticas de navegadores,
+      // que requerem interação do usuário antes de tocar áudio).
+      console.log('Autoplay bloqueado. O áudio só tocará após a interação do usuário.');
+      // Você pode adicionar um botão "Tocar Música" se quiser ser mais explícito.
+    });
+  });
+</script>
+    <div class="container">
+        <h1 class="main-title"><span class="green-letter">E</span>nder <span class="green-letter">S</span>earch</h1>
+        <input type="text" id="searchInput" placeholder="Pesquisar mob...">
+        <div id="mobsContainer"></div>
+    </div>
+
+    <div id="mobModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="mobName"></h2>
+            <h3>Fraquezas</h3>
+            <p id="mobWeaknesses"></p>
+            <h3>Comportamento</h3>
+            <p id="mobBehavior"></p>
+            <h3>Estratégias para Derrotar</h3>
+            <p id="mobStrategy"></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-footer">
+            <div class="logo-snow">
+             Ender Search
+            </div>
+            <p class="rodape-direitos">Copyright © 2024 – Todos os Direitos Reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

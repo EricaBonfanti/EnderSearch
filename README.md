@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner do Projeto](docs/endersearch.png)
+![Banner do Projeto](docs/fundoender.png)
 
 # ⚔️ Ender Search: O Portal Definitivo de Mobs do Minecraft
 
@@ -73,7 +73,7 @@ O desenvolvimento deste portal envolveu a aplicação prática de diversas tecno
 
 Acesse a documentação completa do portal, incluindo tutoriais de uso, sistema de busca e funcionalidades avançadas, através do manual criado no Canva:
 
-[**🟩 Acessar Manual do Usuário (PDF)**](docs/manualender.pdf)
+[**🟩 Acessar Manual do Usuário (PDF)**](docs/manualsearch.pdf)
 
 ---
 

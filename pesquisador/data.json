@@ -34,7 +34,7 @@
   
   {
     "nome": "Zumbi (Zombie)",
-    "imagem": "imagens/Zumbi.png",
+    "imagem": "imagens/zumbi.png",
     "descricao": "Um mob hostil lento, mas persistente, encontrado na superfície e em cavernas. Queima sob a luz direta do sol, a menos que esteja protegido.",
     "fraquezas": "Dano de Fogo (Queima ao sol); Poções de Dano (Splash Potion of Harming); Pobre contra Vantagens de Flechas (Ex: Poder).",
     "comportamentos": "Lento e Hostil: Persegue o jogador, ataca corpo a corpo. Queima à luz do sol, exceto se estiver com capacete, debaixo d'água ou em um local com sombra.",

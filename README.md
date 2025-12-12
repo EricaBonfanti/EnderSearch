@@ -105,4 +105,5 @@ Este projeto foi desenvolvido por:
 
 <sub>**Desenvolvido com 💚 para a comunidade Minecraft**</sub>
 
+licença MIT: (lisence)
 </div>

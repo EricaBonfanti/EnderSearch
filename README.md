@@ -105,5 +105,8 @@ Este projeto foi desenvolvido por:
 
 <sub>**Desenvolvido com 💚 para a comunidade Minecraft**</sub>
 
-licença MIT: (lisence)
+## Licença
+
+Este projeto está licenciado sob a Licença MIT.
+**[Licença MIT.](/license)**
 </div>

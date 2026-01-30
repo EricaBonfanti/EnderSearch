@@ -1,112 +1,106 @@
 <div align="center">
 
-![Banner do Projeto](docs/fundoender.png)
+![Banner do Projeto](python.png)
 
-# ⚔️ Ender Search: O Portal Para Derrotar Qualquer Mob Hostil do Minecraft
+# 🤖 Automação de Cadastro de Produtos com Python
 
-<img src="https://img.shields.io/badge/Status-Protótipo%20Concluído-00FF00?style=for-the-badge&labelColor=000000" alt="Status do Projeto Concluído">
-<img src="https://img.shields.io/badge/Front--end-HTML%20%7C%20CSS%20%7C%20JS-00FF00?style=for-the-badge&logo=javascript&logoColor=000000&labelColor=000000" alt="Tecnologias Front-end">
-
+<img src="https://img.shields.io/badge/Status-Aprendizado%20Concluído-FFD43B?style=for-the-badge&labelColor=3776AB&color=FFD43B&logo=python&logoColor=3776AB" alt="Status do Projeto">
+<img src="https://img.shields.io/badge/Python-Automação-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B&labelColor=3776AB" alt="Python Automação">
+<img src="https://img.shields.io/badge/Hashtag-Treinamentos-FFD43B?style=for-the-badge&labelColor=3776AB" alt="Hashtag Treinamentos">
 
 </div>
-
 
 ---
 
 ## 🎯 Visão Geral do Projeto
 
-O **Ender Search** é um protótipo de aplicação web desenvolvido como **o melhor recurso para descobrir fraquezas, comportamentos e estratégias para derrotar qualquer mob do Minecraft**. Este projeto foi desenvolvido com a finalização da **10ª Edição da Imersão Dev com Google Gemini,** um evento de excelência promovido pela **Alura**.
-
-O projeto visa centralizar informações estratégicas sobre todos os mobs hostis do universo Minecraft, facilitando a experiência dos jogadores.
+Este repositório apresenta um **projeto educacional de automação de tarefas com Python**, desenvolvido a partir de uma **live da Hashtag Treinamentos**. O objetivo do projeto é demonstrar, na prática, como **automatizar o cadastro de produtos em um sistema**, simulando ações humanas como uso de mouse, teclado, login e preenchimento de formulários.
 
 ---
 
-## ⚠️ Contexto e Necessidade da Comunidade
+## ⚠️ Contexto e Problema
 
-A comunidade de jogadores de Minecraft frequentemente enfrenta dificuldades ao lidar com diferentes tipos de mobs, especialmente os mais perigosos e raros. **Informações sobre fraquezas, comportamentos e estratégias de combate estão dispersas em diversos sites e fóruns.** Essa fragmentação dificulta o acesso rápido a dados confiáveis, e foi com esse foco que desenvolvi o protótipo:
+Em ambientes profissionais, é comum lidar com **grandes volumes de dados** que precisam ser cadastrados manualmente em sistemas. Esse processo apresenta desafios significativos:
 
-> 🟩 **O Ender Search é a nossa resposta a essa necessidade, oferecendo promp local sobre todos os mobs hostis do Minecraft.**
+| Desafio | Impacto |
+|---------|--------|
+| **Consumo de tempo** | Tarefas repetitivas consomem horas de trabalho |
+| **Erros humanos** | Digitação incorreta compromete a qualidade dos dados |
+| **Redução de produtividade** | Recursos humanos desperdiçados em atividades mecânicas |
 
----
-
-## ✨ Diferencial e Funcionalidades
-
-O principal diferencial do **Ender Search** é a **organização sistemática de informações sobre cada mob**, incluindo dados técnicos, comportamentais e estratégias de combate testadas pela comunidade.
-
-```diff
-+ Catálogo Completo de Mobs: Informações detalhadas sobre todos os mobs hostis.
-+ Estratégias de Combate: Táticas eficientes para derrotar cada tipo de criatura.
-+ Sistema de Busca Inteligente: Encontre rapidamente o mob que você precisa estudar.
-```
+O projeto aborda exatamente esse cenário, utilizando **automação para transformar uma tarefa repetitiva em um processo rápido e confiável**.
 
 ---
 
-## 💻 Habilidades e Competências Desenvolvidas
+## ✨ Conceitos e Funcionalidades Aprendidas
 
-O desenvolvimento deste portal exigiu a aplicação e o aprimoramento de um conjunto de competências técnicas e interpessoais.
+Durante o desenvolvimento deste projeto, foram explorados os seguintes conceitos fundamentais de automação com Python:
 
-### 🤯 Soft Skills
+- ✅ **Leitura de dados** a partir de arquivos CSV
+- ✅ **Automação de login** em sistemas web
+- ✅ **Preenchimento automático** de formulários
+- ✅ **Repetição de tarefas** até o fim da base de dados
+- ✅ **Simulação de ações humanas** com mouse e teclado
 
-Meu principal desafio — a organização de grandes volumes de informação e a criação de uma experiência de usuário intuitiva — reforçou minha habilidade em:
+---
 
-- 🟩 **Organização e Planejamento:** Essenciais para estruturar o prompt de cada mob com suas informações.
-- 🟩 **Resiliência:** Capacidade de superar obstáculos técnicos e aprender com os erros no desenvolvimento de software.
+## 📖 Funcionamento da Automação
 
-### ⚙️ Hard Skills em Destaque
+Ao executar o script, o processo segue os seguintes passos de forma sequencial e automatizada:
 
-O desenvolvimento deste portal envolveu a aplicação prática de diversas tecnologias e ferramentas, demonstrando proficiência em:
+1. **Abre o navegador** - Inicializa uma instância do navegador web
+2. **Acessa o sistema** - Realiza login com as credenciais fornecidas
+3. **Lê os dados** - Carrega as informações do arquivo `produtos.csv`
+4. **Preenche formulários** - Insere automaticamente os dados nos campos do sistema
+5. **Envia informações** - Submete cada registro de forma programada
+6. **Repete o processo** - Continua até finalizar todos os registros da base de dados
+
+Este fluxo garante que todos os produtos sejam cadastrados de forma consistente e sem intervenção manual.
+
+---
+
+## 📌 Observação Importante
+
+> ⚠️ **Projeto desenvolvido exclusivamente para fins educacionais**, reproduzido a partir de uma **live da Hashtag Treinamentos**, com o objetivo de aprendizado e prática em automação com Python. Este projeto é um exercício prático de aprendizagem e não deve ser utilizado para fins comerciais sem autorização adequada.
+
+---
+
+## 🤝 Créditos
 
 <div align="center">
 
-| 🟩 Categoria | 🟩 Tecnologia | 🟩 Uso no Projeto |
-| :--- | :--- | :--- |
-| **Front-end** | HTML, CSS, JavaScript | Estrutura, estilização e lógica de interação do portal. |
-| **Inteligência Artificial** | Google Gemini API | Geração de conteúdo e prompts dinâmicos para mobs (Aprendizado na Imersão Dev Alura). |
-| **Estrutura de Dados** | Data/JSON | Armazenamento e manipulação dos prompts de cada mob. |
-| **Gestão/Codificação** | VS Code | Ambiente de codificação e gerenciamento de tarefas. |
+### Conteúdo Apresentado
+
+**🟦 Hashtag Treinamentos**
+
+Conteúdo educacional de excelência em automação e desenvolvimento Python.
+
+### Reprodução Prática e Estudos
+
+**🟨 Érica Bonfanti Corrêa**
+
+🔗 [GitHub Profile](https://github.com/EricaBonfanti)
+
+---
+
+<sub>Desenvolvido com foco em aprendizado, automação e evolução profissional 🚀</sub>
 
 </div>
 
 ---
 
-## 📖 Manual do Usuário
+## 📄 Licença
+
+Este projeto está licenciado sob a **Licença MIT**.
+
+Para mais informações, consulte o arquivo [LICENSE](LICENSE) no repositório.
+
+---
 
 <div align="center">
 
-### 💚 Guia Visual do Aventureiro
 
-Abaixo, um guia rápido e visual sobre como navegar no **Ender Search** e encontrar o caminho para a vitória!
 
-<img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663243882566/bdwSPCDLQdOmnTOF.webp" alt="Capa do Manual do Usuário" width="80%">
-<img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663243882566/OPYRmfezMqkXXonO.webp" alt="Página Inicial do Ender Search" width="80%">
-<img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663243882566/ibjDxssyTmAeXKAv.webp" alt="Página de Pesquisa do Ender Search" width="80%">
-<img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663243882566/gGTxyqNdKGnSOxmo.webp" alt="Realizando a Pesquisa no Ender Search" width="80%">
-<img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663243882566/xwFCDnoJMuKSeerR.webp" alt="Conferindo as Informações no Ender Search" width="80%">
+Paleta de cores inspirada na identidade visual oficial da linguagem Python 🐍
 
----
-
-### 💚 Parabéns, Aventureiro(a)!
-
-Você agora entende perfeitamente como a plataforma funciona e como navegar nela, garantindo que poderá utilizar todo o potencial do **Ender Search** em suas expedições. Lembre-se sempre: A Pedra do Ender sempre faz você encontrar o caminho! Boa sorte em sua jornada.
-
-</div>
-
----
-
-## 🤝 Autoria e Créditos
-
-<div align="center">
-
-Este projeto foi desenvolvido por:
-
-**🟩 Érica Bonfanti Corrêa** - https://github.com/EricaBonfanti
-
----
-
-<sub>**Desenvolvido com 💚 para a comunidade Minecraft**</sub>
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT.
-**[Licença MIT.](/license)**
 </div>
